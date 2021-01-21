@@ -24,15 +24,6 @@ const TodoContextProvider = ({ children }) => {
     })
   }, [todos])
 
-  /*
-  const addTodo = todo => {
-    setTodos([...todos, todo])
-  }
-
-  const deleteTodo = id => {
-    setTodos(todos.filter(todo => todo.id !== id))
-  } */
-
   const todoContextData = {
     todos,
     dispatch
